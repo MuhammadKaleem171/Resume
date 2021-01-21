@@ -1,0 +1,28 @@
+@import '../Left/breakpoint.scss';
+.PC{
+justify-content: center;
+display: grid;
+background-color: #e6dace;
+@include media('>phone','<600px') {
+   justify-content: safe;
+}
+}
+.lcon{
+    width: 49.9%;
+    height: 100%;
+    background-color: rgb(253, 253, 253);
+}
+.Rcon{
+    width: 49.9%;
+    height: 100%;
+    overflow: hidden;
+}
+.paragraph{
+width: 100%;
+height: auto;
+p{
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+}

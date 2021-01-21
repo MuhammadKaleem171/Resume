@@ -1,0 +1,55 @@
+@import '../Left/breakpoint.scss';
+.details{
+    width: 900px;
+    height: 645px;
+    min-width: 400px;
+    @include media('>phone','<600px'){
+        position: relative;
+        width: 900px;
+    height: 645px;
+    min-width: 400px;
+    }
+}
+.dContainer{
+    top: 40px;
+left: 150px;
+max-width: 600px;
+min-width: 400px;
+position: relative;
+height: 400px;
+text-align: center;
+@include media('>phone','<600px'){
+    left: 0px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-size: 70px;
+    @include media('>phone','<600px'){
+        font-size: 40px;
+    }
+}
+h3{
+    padding: 0;
+margin: 0;
+font-size: 20px;
+font-family: ariel;
+margin-bottom: 10px;
+}
+}
+.ButtonContainer{
+margin-left: 23%;
+display: flex;
+position: absolute;
+}
+
+.Paragraph{
+    margin-top: 40px;
+padding: 10px;
+p{
+    font-size: 16px;
+letter-spacing: 1px;
+font-family: arial;
+line-height: 34px
+}   
+}

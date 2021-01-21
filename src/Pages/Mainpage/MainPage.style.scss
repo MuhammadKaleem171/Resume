@@ -1,0 +1,10 @@
+@import '../Left/breakpoint.scss';
+.container{
+    display: flex;
+
+@include media('>phone','<600px'){
+        display: flex;
+flex-direction: column;
+position: absolute;
+    }
+}

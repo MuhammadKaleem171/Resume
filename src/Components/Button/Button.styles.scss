@@ -1,0 +1,45 @@
+.btn{
+    width: 130px;
+    height: 37px;
+    text-align: center;
+    width: 100px;
+height: 40px;
+text-align: center;
+border: 1px solid;
+border-radius: 28px;
+align-content: center;
+display: grid;
+background: blue;
+margin-left: 20px;
+color:white;
+&:hover{
+    background:white;
+    border: 2px solid blue;
+    color:black;
+}
+::after{
+    background-color: blueviolet;
+}
+}
+.btn1{
+    width: 130px;
+    height: 37px;
+    text-align: center;
+    width: 100px;
+height: 40px;
+text-align: center;
+border: 1px solid;
+border-radius: 28px;
+align-content: center;
+display: grid;
+background:white;
+margin-left: 20px;
+&:hover{
+    background:blue;
+    border: 2px solid blue;
+    color:white;
+}
+::after{
+    background-color: blueviolet;
+}
+}

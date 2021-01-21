@@ -1,0 +1,11 @@
+@import '../../../Pages/Left/breakpoint.scss';
+.Pcontainer{
+    height: 440px;
+    width: 750px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+display: flex;
+@include media('>phone','<600px') {
+    width: 600px;
+}
+}

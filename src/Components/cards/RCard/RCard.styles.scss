@@ -1,0 +1,12 @@
+@import '../../../Pages/Left/breakpoint.scss';
+.Container{
+    height: 370px;
+    width: 100%;
+    background: white;
+    display: flex;
+justify-content: space-around;
+margin-bottom: 10px;
+@include media('<phone','<600px'){
+    width: 600px;
+}
+}
