@@ -18,8 +18,6 @@ function App() {
     <Route path='/Project' component={Project}/>
 
     </Router>
-
-
   )
 }
 
