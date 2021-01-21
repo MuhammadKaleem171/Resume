@@ -1,7 +1,4 @@
 import Header from './Components/Header/Header';
-import logo from './logo.svg';
-import Left from './Pages/Left/Left'
-import Main from './Pages/Main/Main'
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import MainPage from './Pages/Mainpage/MainPage'
 import history from './Components/History/history';
